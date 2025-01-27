@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  height: min-content;
+} */
+
+.app {
+  height: 100vh;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}

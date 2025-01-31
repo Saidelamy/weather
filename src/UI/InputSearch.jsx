@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchWeatherByCity } from '../Redux/WeatherSlice';
+import { fetchWeatherByCity } from '../Redux/weatherSlice';
 
 export const InputSearch = () => {
   const [city, setCity] = useState('');

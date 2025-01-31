@@ -25,6 +25,9 @@ const weatherSlice = createSlice({
   initialState,
   reducers: {},
   extraReducers: (builder) => {
+    builder.addCase(fetchWeatherByCity.pending, (state) => {
+      state.forecast = 'loading...';
+    });
     builder.addCase(fetchWeatherByCity.fulfilled, (state, action) => {
       state.forecast = action.payload;
     });

@@ -34,7 +34,7 @@ export const InputSearch = () => {
         <input
           type="search"
           id="default-search"
-          className="w-[400px] rounded-lg border border-gray-300 bg-gray-50 p-2 ps-10 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
+          className="w-80 rounded-lg border border-gray-300 bg-gray-50 p-2 ps-10 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 md:w-[400px]"
           placeholder={forecast?.location?.name}
           required
           value={city}
